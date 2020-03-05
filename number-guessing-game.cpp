@@ -12,13 +12,15 @@ bool valid = true;
 
 int main()
 {
-system("cls");
+system("clear");
 cout << flush;
 
 for(int i = 0; i < 50; i++)
 {
-cout << endl;
+//cout << endl;
 }
+srand(time(NULL));
+
 randNum = rand() % 10 - 1;
 randNum = rand() % 10 - 1;
 
